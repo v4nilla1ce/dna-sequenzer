@@ -1,31 +1,3 @@
-# In development
-"""def sequenceDecodeDna(sequence):
-    result = ''
-    for i in sequence:
-        if i == 'A' or i == 'T':
-            result += '1'
-        elif i == 'C' or i == 'G':
-            result += '0'
-        else:
-            result += '!'
-    return result"""
-
-'''def copyDna(sequence):
-    result = ''
-    for i in sequence:
-        if i == 'A':
-            result += 'T'
-        elif i == 'C':
-            result += 'G'
-        elif i == 'T':
-            result += 'A'
-        elif i == 'G':
-            result += 'C'
-        else:
-            result += '!'
-    return result'''
-
-
 # Converters
 def arrayToString(array):
     result = ''
